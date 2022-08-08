@@ -1,0 +1,5 @@
+site_name: SlaveVoyage
+
+nav:
+    - Home: index.md
+    - Test: test.md
