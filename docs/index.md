@@ -5,10 +5,10 @@ here is Introduction
 
 ## Outline  
 
-* ### [Components](./Components/Components_Home.md) 
+* ### [Components](./Components_Home.md) 
 
-* ### [Methods](./Methods/Methods_home.md)
+* ### [Methods](./Methods_home.md)
 
-* ### [Routes](./Routes/routes.md)
+* ### [Routes](./routes.md)
 
 ### Installation & Environment
