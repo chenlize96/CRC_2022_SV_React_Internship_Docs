@@ -1,34 +1,14 @@
-# Welcome to MkDocs
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Introduction
+here is Introduction
 
-## Commands
+## Outline  
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-* `l` - hello 
-l
-ll
-l
-l
-l
-l
-l
-l
-l
-l
+* ### [Components](./Components/Components_Home.md) 
 
-## Project layout
+* ### [Methods](./Methods/Methods_home.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* ### [Routes](./Routes/routes.md)
 
-## Hello 
-
-## Hello2
-
-## Hello 3
+### Installation & Environment

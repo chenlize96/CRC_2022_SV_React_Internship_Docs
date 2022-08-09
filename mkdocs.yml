@@ -1,5 +1,6 @@
-site_name: SlaveVoyage
+site_name: CRC_2022_SV_React_Internship_Docs
 
 nav:
-    - Home: index.md
+    # - Home: index.md
     - Test: test.md
+    - test2: testfolder/test2.md
