@@ -14,7 +14,7 @@ CRC_2022_SV_React_Internship_Docs deployed link:
 
 ```
 
-------index.md
+------index.md (Introduction Jiacheng, Installation Zhihao)
      |-Component_Home.md----|-Filter.md
      |                      |-Cards.md 
      |                      |-Cascading.md 
