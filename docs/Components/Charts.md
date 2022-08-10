@@ -24,10 +24,33 @@ The chart compoent support features as following:
 
 ## External Package Used
 #### MUI
-- [Material UI](https://mui.com)
+[MUI](https://mui.com)
+
+- Menu Part (Field Selecotr)
+    - InputLabel
+    - MenuItem
+    - FormControl
+    - Select 
+    - Chip (to respresent choosen multiple y field single element)
+    - Radio
+  
+- Error Message Alert
+    - Alert Title
+    - Alert  
+
+- Layout
+  - Box
+  - Grid
 
 #### React-Plotly
 - [React-Plotly](https://plotly.com/javascript/react/): The main package contain methods to connect with API and chart user-friendly data visualization result as React components
+
+
+
+#### useWindowSize
+- [useWindowSize](https://github.com/jaredLunde/react-hook/tree/master/packages/window-size#readme)
+
+
 
 &nbsp;
 
@@ -41,7 +64,6 @@ The chart compoent support features as following:
 &nbsp;
 
 ## Directory
-
 ```
 src
 |
