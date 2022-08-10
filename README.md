@@ -1,9 +1,9 @@
 # CRC_2022_SV_React_Internship_Docs
 installation : 
- - pip install mkdocs 
+```pip install mkdocs```
 
 To test loacally:
- - mkdocs serve
+```mkdocs serve```
  
 Mkdocs documents: 
  - https://www.mkdocs.org/getting-started/
@@ -14,26 +14,26 @@ CRC_2022_SV_React_Internship_Docs deployed link:
 
 ```
 
-------index.md
-     |-Component_Home.md----|-Filter.md
-     |                      |-Cards.md 
-     |                      |-Cascading.md 
-     |                      |-Charts.md 
-     |                      |-Documents.md 
-     |                      |-Map.md 
-     |                      |-Modals.md 
-     |                      |-UVModals.md 
-     |                      |-Network.md 
-     |                      |-Option_Selector.md 
-     |                      |-Pivot_Table.md 
-     |                      |-Sankey.md 
-     |                      |-Table.md 
+------index.md (Introduction Jiacheng, Installation Zhihao)
+     |-Component_Home.md----|-Filter.md (Jason, Haoyu, Alison)
+     |                      |-Cards.md (Zewen)
+     |                      |-Cascading.md (Jiacheng)
+     |                      |-Charts.md (Jiran, Zhihao)
+     |                      |-Documents.md (Zewen)
+     |                      |-Map.md (Minghao, Jason)
+     |                      |-Modals.md (Lize)
+     |                      |-UVModals.md (Haoyu)
+     |                      |-Network.md (Gaoyuan)
+     |                      |-Option_Selector.md (Gaoyuan)
+     |                      |-Pivot_Table.md (Jason, Minghao, Alison)
+     |                      |-Sankey.md (Haoyu, Jiran, Zhihao)
+     |                      |-Table.md (Lize)
      |
-     |-Methods_Home.md------|-Component_Fac.md 
-     |                      |-Data_Passing.md 
-     |                      |-Filter_Object.md 
-     |                      |-Flat_Files.md 
-     |                      |-Lazy_Loading.md 
-     |                      |-Post_Request.md 
-     |-routes.md 
+     |-Methods_Home.md------|-Component_Fac.md (Alison)
+     |                      |-Data_Passing.md (Gaoyuan)
+     |                      |-Filter_Object.md (Jason)
+     |                      |-Flat_Files.md (Jiacheng)
+     |                      |-Lazy_Loading.md (Jiacheng, Zewen)
+     |                      |-Post_Request.md (Gaoyuan)
+     |-Routes.md (Gaoyuan)
 ```
