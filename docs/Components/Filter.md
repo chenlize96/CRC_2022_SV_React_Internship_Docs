@@ -1,13 +1,13 @@
-## Filter
+# Filter
 
 &nbsp;
 
-### Overview
-The Filter is used to filter the result based on user selection. Users can filter on variables of different types including numberic, text, or visual filters. For each type of variable, there are different filter components including range sliders, multi-selections with autocomplete, and bounding boxes on the map. This page will introduce these filters extensively.
+## Overview
+The Filter is used to filter the result based on user selection. Users can filter on variables of different types including numberic, text, or visual filters. For each type of variable, there are different filter components including range sliders, multi-selections with autocomplete, and bounding boxes on the map. These filters will carry along in the Voyage app and Past app and affect other components. This page will introduce these filters extensively.
 
 &nbsp;
 
-### Range Slider
+## Range Slider
 
 The Range Slider is used for selecting value ranges for numberic values. The component uses MUI components `Slider` and `Input` and support features including: 
 
@@ -22,12 +22,12 @@ An example Range Slider component looks like following:
 ![Example Range Slider](./Slider.png)
 
 
-#### External Component Used 
+### External Component Used 
 - [MUI Slider](https://mui.com/material-ui/api/slider/) 
 - [MUI Input](https://mui.com/material-ui/api/input/)
 
 
-#### Functions
+### Functions
 |  Name     |   Functionality  |
 | -------   |  --------------- |
 |  GetSlider  |   Render range slider component based on the varibale selected       |
@@ -37,9 +37,9 @@ An example Range Slider component looks like following:
 
 &nbsp;
 
-### Auto Complete
+## Auto Complete
 
-#### Overview
+### Overview
 The Autocomplete component is used for making suggestions of search terms based on the current user input. It is used both at the past/ and voyage/ endpoint
 
 The Autocomplete component support features including: 
@@ -52,13 +52,13 @@ The Autocomplete component support features including:
 
 &nbsp;
 
-#### External Package Used
-##### Leaflet
+### External Package Used
+#### Leaflet
 - [Material UI](https://mui.com)
 
 &nbsp;
 
-#### Functions
+### Functions
 |  Name     |   Functionality  |
 | -------   |  --------------- |
 | endpoint   |  Switch between past/ and voyage/ endpoint for fetch requests  |
@@ -66,9 +66,9 @@ The Autocomplete component support features including:
 | onChange    |  Resets search object each time user input is changed   |
 | renderInput    | Displays user input in the search box and updates textInput for post request |
 
-### Bounding Box
+## Bounding Box
 
-### Directory
+## Directory
 ```
 src
 |
