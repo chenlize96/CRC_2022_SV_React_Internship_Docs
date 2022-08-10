@@ -4,7 +4,6 @@
 The Chart part includes Scatter, Bar and Pie, which all implement with `MUI` for UI layout purpose and `React-Plotly` to wrap passing data as reuseable React components.
 
 The chart compoent support features as following:
-<<<<<<< HEAD
 #### General Features
 - data interactivable plotly graph
 - data visualization of Django API data
@@ -34,13 +33,6 @@ The chart compoent support features as following:
 
 ## Functions
 
-&nbsp;
-
-## Customization
-
-&nbsp;
-
-## Directory
 
 &nbsp;
 
