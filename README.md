@@ -1,9 +1,9 @@
 # CRC_2022_SV_React_Internship_Docs
 installation : 
- - pip install mkdocs 
+```pip install mkdocs```
 
 To test loacally:
- - mkdocs serve
+```mkdocs serve```
  
 Mkdocs documents: 
  - https://www.mkdocs.org/getting-started/
@@ -24,9 +24,9 @@ CRC_2022_SV_React_Internship_Docs deployed link:
      |                      |-Modals.md (Lize)
      |                      |-UVModals.md (Haoyu)
      |                      |-Network.md (Gaoyuan)
-     |                      |-Option_Selector.md 
+     |                      |-Option_Selector.md (Gaoyuan)
      |                      |-Pivot_Table.md (Jason, Minghao, Alison)
-     |                      |-Sankey.md (Haoyu, Jiran, Zhi)
+     |                      |-Sankey.md (Haoyu, Jiran, Zhihao)
      |                      |-Table.md (Lize)
      |
      |-Methods_Home.md------|-Component_Fac.md (Alison)
