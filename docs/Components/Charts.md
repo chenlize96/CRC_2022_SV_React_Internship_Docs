@@ -39,8 +39,8 @@ The chart compoent support features as following:
     - Alert  
 
 - Layout
-  - Box
-  - Grid
+    - Box
+    - Grid
 
 #### React-Plotly
 - [React-Plotly](https://plotly.com/javascript/react/): The main package contain methods to connect with API and chart user-friendly data visualization result as React components
