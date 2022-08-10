@@ -26,7 +26,7 @@ CRC_2022_SV_React_Internship_Docs deployed link:
      |                      |-Network.md (Gaoyuan)
      |                      |-Option_Selector.md (Gaoyuan)
      |                      |-Pivot_Table.md (Jason, Minghao, Alison)
-     |                      |-Sankey.md (Haoyu, Jiran, Zhihao)
+     |                      |-PeopleSankey.md (Haoyu, Jiran, Zhihao)
      |                      |-Table.md (Lize)
      |
      |-Methods_Home.md------|-Component_Fac.md (Alison)
