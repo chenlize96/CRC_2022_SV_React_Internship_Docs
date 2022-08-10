@@ -7,8 +7,8 @@ here is Introduction
 
 * ### [Components](./Components_Home.md) 
 
-* ### [Methods](./Methods_home.md)
+* ### [Methods](./Methods_Home.md)
 
-* ### [Routes](./routes.md)
+* ### [Routes](./Routes.md)
 
 ### Installation & Environment
