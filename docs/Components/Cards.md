@@ -6,7 +6,7 @@ User could switch between two view modes by buttons.
 
 ![Cards:Overview](./Card Pics/Cards:Overview.png)
 
-
+&nbsp;
 
 ## Features
 
@@ -18,7 +18,7 @@ The card components is based on [Matterial-UI/Cards ](https://mui.com/material-u
 - Detail info extension(optional)
 - Sankey/Network Modal remote control(optional)
 
-
+&nbsp;
 
 ## Package importing
 
@@ -36,7 +36,7 @@ import { styled } from '@mui/material/styles';
 import _ from 'lodash';
 ```
 
-
+&nbsp;
 
 ## Styling Modification
 
@@ -96,25 +96,27 @@ const ExpandMore = styled((props) => {
 </Grid>
 ```
 
-
+&nbsp;
 
 ## Props
 
 
 
-| Prop          | Type                      | Default | Description                                                  |
-| ------------- | ------------------------- | ------- | :----------------------------------------------------------- |
-| target | Object                    |         | The enslaver/enslaved_people object that contains attributes |
-| dynamic       | boolean                   | false   | This decides if the card is simple or extendable with ExpandIcon![ExpandIcon](./Card Pics/ExpandIcon.png) |
-| canRemote     | boolean                   | false   | This decides if the card could call outside funcitons and displays ManageSearch icon![ManageSearch](./Card Pics/ManageSearch.png) |
-| Dataset       | Number                    |         | According to SlaveVoyage database archive, Story.js will disable ManageSearch icon and hide it when it's dataset 0 (TRANS-ATLANTIC) |
-| remoteControl | Function                  |         | Function called when clicking the ManageSearch icon, to   switch on the Sankey/Network/Story modal |
-| dataChange    | Function                  |         | Function called when clicking the ManageSearch icon, to   reset the `selectedData` useState in the EnslavedApp/EnslaverApp |
-| slavery | String(enslaved/enslaver) | | Story.js will do different content processing of target |
+| Prop          | Type                      | Default | Description                                                  | Icon |
+| ------------- | ------------------------- | ------- | :----------------------------------------------------------- | ------------- |
+| target | Object                    |         | The enslaver/enslaved_people object that contains attributes |  |
+| dynamic       | boolean                   | false   | This decides if the card is simple or extendable with ExpandIcon | ![ExpandIcon](./Card Pics/ExpandIcon.png) |
+| canRemote     | boolean                   | false   | This decides if the card could call outside funcitons and displays ManageSearch icon | ![ManageSearch](./Card Pics/ManageSearch.png) |
+| Dataset       | Number                    |         | According to SlaveVoyage database archive, Story.js will disable ManageSearch icon and hide it when it's dataset 0 (TRANS-ATLANTIC) |  |
+| remoteControl | Function                  |         | Function called when clicking the ManageSearch icon, to   switch on the Sankey/Network/Story modal |  |
+| dataChange    | Function                  |         | Function called when clicking the ManageSearch icon, to   reset the `selectedData` useState in the EnslavedApp/EnslaverApp |  |
+| slavery | String("enslaved" \| "enslaver") | | Story.js will do different content processing of target |  |
+
+&nbsp;
 
 ## Warning: Each child in a list should have a unique "key" prop
 
-This warning might appear when multiple `< Story />`components are mapped and rendered out of data collections. 
+This warning might appear when multiple `< Story />`components are mapped and rendered from data collections. 
 
 To remove this warning, appending additional `key` attribute to `<Story />` would be a solid solution
 
@@ -138,12 +140,18 @@ To remove this warning, appending additional `key` attribute to `<Story />` woul
 /* JSX return slots*/
 ```
 
-- For multi-layer mapping, making random number generator is also an approach. For example, [UUID](https://www.npmjs.com/package/uuid) ,which is also npm supported
+- for multiple return JSXes, making random number generator is also an approach. For example, [UUID](https://www.npmjs.com/package/uuid) ,which is also npm supported
 
 ```javascript
 /* JSX return slots*/
-  {collections.map((item) => {
-    return <Story key={SomeLibrary.generateUniqueID()}  .../> })}
+	{collections.map((item) => {
+    return(
+    <Story key={SomeLibrary.generateUniqueID()}  .../>
+		<AnotherComponent key={SomeLibrary.generateUniqueID()}/>
+		<AnotherComponent key={SomeLibrary.generateUniqueID()}/>
+		...
+		)
+	})}
 /* JSX return slots*/
 ```
 
