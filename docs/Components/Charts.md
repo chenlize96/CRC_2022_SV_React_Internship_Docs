@@ -13,6 +13,12 @@ The chart compoent support features as following:
 
 #### Bar
 - supports fetching multiple y-axis data and representing results side by side with different color
+  
+  
+<details>
+<summary>Merge multiple request time into once</summary>
+MergeCallTimes: Since multiple Y-field request multiple times, merge multiple times as once could effectively avoid `CORS` error
+</details>
 
 #### Pie
 - support users to check proportion of each sector with different color visualization
@@ -39,8 +45,8 @@ The chart compoent support features as following:
     - Alert  
 
 - Layout
-  - Box
-  - Grid
+    - Box
+    - Grid
 
 #### React-Plotly
 - [React-Plotly](https://plotly.com/javascript/react/): The main package contain methods to connect with API and chart user-friendly data visualization result as React components
@@ -60,7 +66,20 @@ The chart compoent support features as following:
 &nbsp;
 
 ## Customization
+<details>
+<summary>Customized Style</summary>
 
+```js
+function getStyles(name, chips, theme) {
+    return {
+      fontWeight:
+        chips.indexOf(name) === -1
+          ? theme.typography.fontWeightRegular
+          : theme.typography.fontWeightMedium,
+    };
+  }
+```
+</details>
 &nbsp;
 
 ## Directory
