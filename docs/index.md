@@ -39,7 +39,7 @@ Website Link: [voyages3-react page](https://voyages3-react.crc.rice.edu)
 3. run `npm install`
 4. Delete `node_modules` 
 5. run `npm ci` 
-6. Locally test (run `npm start`, if all functions gose well, Prefect!)
+6. Locally test (run `npm start`, if all functions goes well, Prefect!)
 7. If funciton on local serve is perfect then push & merge
 
 

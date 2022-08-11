@@ -33,3 +33,16 @@ A pivot table is a table of grouped values that aggregates the individual items 
 | -------   |  --------------- |
 | PivotTable   |  Generate drop down menus for column/row selection and which data to show in cell, render radio button for selecting aggregation function used, call the function "Pivot" to render the table according to selected columns/rows. |
 | Pivot    |  Draw the Pivot Table according to params given by caller function "PivotTable" .  |
+ 
+## Directory
+The following directory shows all files related to map. 
+```
+src
+|
+|___VoyageApp
+    |
+    |___Component
+        |
+        |___Pivot.js
+        |___PivotTable.js
+```
