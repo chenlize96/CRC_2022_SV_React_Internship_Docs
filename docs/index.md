@@ -1,7 +1,13 @@
 # Home
 
 ## Introduction
-here is Introduction
+SV React Frontend is a prototype frontend application for the Slave Voyage website. The application is based on React library and uses Material UI for most of its UI components. 
+
+The application allows users to filter among large data about slave voyages in both Trans-Atlantic and Intra-America datasets as well as slaved and enslaved people, and provides multiple ways of visualizing the data. These visualizations include scatter plots, bar charts, pie charts, tables, pivot tables, and maps for voyages, and sankey diagram, network diagram and story cards for enslaved people and enslavers. It also holds a collection of digital documents for detailed views. 
+
+This document will introduce all the major components used in the project, the methods used to transfer data among components, and routes defined inside the application. 
+
+
 
 ## Outline  
 

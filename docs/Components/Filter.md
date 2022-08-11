@@ -50,10 +50,13 @@ The Autocomplete component support features including:
 - Update results based on the value of other filter components
 - ambiguous matching
 
+An example of Auto Complete:
+
+![Example Auto Complete](./autocomplete.png)
+
 &nbsp;
 
 ### External Package Used
-#### Leaflet
 - [Material UI](https://mui.com)
 
 &nbsp;
@@ -89,6 +92,15 @@ An example of the bounding box looks like the following:
 | -------       |  --------------- |
 | resetBox      |  Reset the selected box by removing corresponding key-value pairs in filter object |
 | AreaSelect    |  Set the filter object after the box is drawn on the map |
+
+### Overview
+The Autocomplete component is used for making suggestions of search terms based on the current user input. It is used both at the past/ and voyage/ endpoint
+
+## Component Factory
+### Overview
+Whenenver a filter component is selected, the ComponentFac function switches between serving different components (such as the slider or the autocomplete function) by checking the type of the flatlabel of the selected option(s).
+
+
 
 ## Directory
 ```
