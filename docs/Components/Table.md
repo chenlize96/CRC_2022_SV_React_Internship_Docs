@@ -39,7 +39,7 @@ The Table component support features including:
 &nbsp;
 
 ## Directory
-The following directory shows all files related to table. 
+The following directory shows all files related to Table. 
 ```
 src
 |___CommonComponent
