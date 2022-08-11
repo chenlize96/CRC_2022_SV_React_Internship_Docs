@@ -3,6 +3,8 @@
 ## Overview
 Filter Object contains all the filters that have been created. The variables that are filtered on as well as their values will be stored in a dictionary and pass along to other components. When sending requests to the server, these filters will be applied and the result will be updated. 
 
+&nbsp;
+
 ## Format
 The filter object is a dictionary which contains the variables and their values, which looks like the following: 
 ```
@@ -33,6 +35,7 @@ The filter object is a dictionary which contains the variables and their values,
     ]
 }
 ```
+&nbsp;
 
 ## Usage
 The filter object is usually applied when sending requests to the server. The variables and values in the filter object are appended as the request body and send to the server. The following is an exmaple: 
@@ -49,6 +52,7 @@ for (var property in filter_object) {           // append variables and values i
 
 axois.post('url', data=data)    // send the request to endpoint
 ```
+&nbsp;
 
 ## Declaration, Set & Delete
 The filter object created being a `useState` hook, and pass along to other components. Being a Hook means changeing the filter object requires the function declared in the hook declaration. 
