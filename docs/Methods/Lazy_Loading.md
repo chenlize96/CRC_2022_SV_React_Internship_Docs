@@ -2,7 +2,7 @@
 
 The application adopts lazy-loading to reduce server burden under concurrent visits and improve system performance.
 
-see [Document](../../Components/Documents#LazyLoading_Document) for detail
+
 
 &nbsp;
 
@@ -10,7 +10,7 @@ see [Document](../../Components/Documents#LazyLoading_Document) for detail
 
 In `Document` page, we use lazy-loading to construct IIIF thumbnail galleries and make a seamless api requesting
 
-See #here
+See [Document](../../Components/Documents#LazyLoading_Document) for detail
 
 
 
