@@ -15,7 +15,7 @@ This document will introduce all the major components used in the project, the m
 
 * ### [Methods](./Methods_Home.md)
 
-* ### [Routes](./Routes.md)
+* ### [Routers](./Routers.md)
 
 ### Installation & Environment
 [![](https://img.shields.io/badge/npm-v8.12.2-brightgreen)](https://shields.io)  [![](https://img.shields.io/badge/node-v16.15.1-orange)](https://shields.io)

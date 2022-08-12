@@ -35,5 +35,5 @@ CRC_2022_SV_React_Internship_Docs deployed link:
      |                      |-Flat_Files.md 
      |                      |-Lazy_Loading.md 
      |                      |-Post_Request.md 
-     |-Routes.md 
+     |-Routers.md 
 ```
