@@ -24,11 +24,11 @@ The card components is based on [Matterial-UI/Cards ](https://mui.com/material-u
 
 Cards need support from Lodash for data processing and Material-UI for display support:
 
-- npm install
+- npm install:
 
 > npm i -g npm 
 
-- In-file importing
+- In-file importing:
 
 ```javascript
 import { Button, Card, CardHeader, CardContent, Grid } from "@mui/material";
