@@ -121,7 +121,7 @@ function ArchiveItem(props){
 export default trackWindowScroll(ArchiveItem);
 ```
 
-we also use LayLoading on other structures, see [LazyLoading_In_Methods](../../Methods/Lazy_Loading/)
+we also use LayLoading in other structures, see [LazyLoading_In_Methods](../../Methods/Lazy_Loading/)
 
 &nbsp;
 
